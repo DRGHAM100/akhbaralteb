@@ -1,10 +1,4 @@
 /**
-* Template Name: Medilab - v2.0.0
-* Template URL: https://bootstrapmade.com/medilab-free-medical-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -200,6 +194,18 @@ textarea{ resize: none; }
     font-size: 1.3rem;
     position: relative; top: -.2rem;
   }
+}
+
+@media (max-width: 700px) {
+  #header {
+    top: 0;
+  }
+  #header h1 a{
+    font-size: 1rem;
+    position: relative; top: -.2rem;
+  }
+
+  .login-form{width: 100%;}
 }
 
 /*--------------------------------------------------------------
@@ -1752,7 +1758,7 @@ section {
   text-decoration: none;
 }
 /* Start Login Form */
-.login-form{font-weight: bold; }
+.login-form{font-weight: bold;width: 400px; }
 .login-form .btn{background-color: red;border: none; direction: rtl;}
 .login-form .btn.facebook{background-color: rgb(84, 84, 228);}
 .login-form input{
@@ -1766,7 +1772,7 @@ margin: .5rem 0; transition: .5s ease-in-out;
 }
 /* End Login Form */
 /* Start form-signup Form */
-.form-signup{font-weight: bold; }
+.form-signup{font-weight: bold; width: 420px;}
 .form-signup .btn{background-color: red;border: none; direction: rtl; }
 .form-signup input{
   color: black;
@@ -1799,4 +1805,26 @@ background:  rgb(225, 232, 225) none repeat scroll 0% 0%;
   background-color: red;
   border: none;
 }
+.footer-newsletter input{
+  font-size: 1.1rem;
+}
+@media (max-width: 700px) {
+  #header {
+    top: 0;
+  }
+  #header h1 a{
+    font-size: .7rem;
+    position: relative; top: -.5rem;
+  }
 
+  .login-form{width: 100%;}
+  .footer-newsletter input{
+    font-size: .9rem;
+  }
+
+  .why-us .content .more-btn{
+    padding: .5rem;
+    font-size: 1.5rem;
+  }
+  .form-signup{font-weight: bold; width: 100%;}
+}
